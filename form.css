@@ -1,5 +1,5 @@
 body{
-    background-color: silver;
+    background-color: lightblue;
     border: 2px solid black;
     text-align: justify;
     margin: 10px;
@@ -10,8 +10,6 @@ h1{
     font-family: 'Courier New', Courier, monospace;
     text-transform: uppercase;
     text-decoration: underline;
-    font-style: italic;
-    color: blue;
 
 
 
