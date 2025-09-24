@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>indenting </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color:rgb(219, 223, 224);
+        }
+        input{
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            font-size: 14px;
+            outline: none;          
+            transition: border-color 0.3s;
+    
+        }
+        fieldset {
+            border: 2px solid #ccc;
+            padding: 20px;
+            max-width: 400px;
+        }
+        legend {
+            font-weight: bold;
+            padding: 0 10px;
+        }
+        label {
+            display: inline-block;
+            width: 120px;
+            margin-bottom: 10px;
+        }
+        input, select, textarea {
+            width: calc(100% - 130px);
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+        input[type="submit"] {
+            width: auto;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Signup</legend> 
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="name">Number:</label>
+        <input type="number" id="number" name="number" required><br><br>
+
+        <label for="name">Date of birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="g">Gender:</label> 
+        <select name="gender" id="g">
+            <option value="select">select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select><br><br>
+
+        <label for="address"> Address:</label>
+        <textarea id="address" name="address" rows="2" cols="20" required></textarea><br><br>       
+
+        <input type="submit" value="Submit">
+      </form>                                                                  
+    </fieldset>
+</body>
+</html>
