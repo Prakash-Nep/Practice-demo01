@@ -1,0 +1,18 @@
+body{
+    background-color: ;
+}
+header{
+    background-color: lightgreen;
+    padding: 15px;
+}
+h1{
+    margin-right: 180px;
+}
+a:link{
+    color: rgb(31, 9, 9);
+    padding: 25px;
+    text-decoration: none;
+}
+a:hover{
+    color:red;
+}
